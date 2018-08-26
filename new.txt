@@ -1,0 +1,2 @@
+   If ws.Cells(i - 1, 1) = ws.Cells(i, 1) And ws.Cells(i + 1, 1).Value <> ws.Cells(i, 1).Value Then
+              year_close = ws.Cells(i, 6).Value
